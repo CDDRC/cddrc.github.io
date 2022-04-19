@@ -39,9 +39,36 @@ main {
   text-decoration: underline;
 }
 
-.top-bg-image {
+.bg-image {
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1000;
+}
+.bg-image__main {
+  width: 100%;
+}
+.bg-image__mouse {
+  position: absolute;
+  width: 23%;
+  top: 35%;
+  left: 51.5%;
+}
+.bg-image__fish {
+  position: absolute;
+  width: 12%;
+  top: 35%;
+  left: 65%;
+}
+.bg-image__fruit-fly {
+  position: absolute;
+  width: 8%;
+  top: 25%;
+  left: 72%;
+}
+.bg-image__frog {
+  position: absolute;
+  width: 20%;
+  top: 38%;
+  left: 75%;
 }
