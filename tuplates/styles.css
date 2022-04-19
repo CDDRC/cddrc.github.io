@@ -31,9 +31,17 @@ main {
 
 .navbar a {
   color: red;
+  font-weight: bold;
   text-decoration: none;
 }
 .navbar a:hover {
   color: red;
   text-decoration: underline;
+}
+
+.top-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1000;
 }
