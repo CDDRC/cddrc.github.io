@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  margin: 0;
   font-family: Arial;
   font-size: 1.2em;
   display: flex;
@@ -30,6 +31,9 @@ main {
 }
 
 .header {
+  width: 100vw;
+  position: absolute;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,9 +60,7 @@ main {
 }
 
 .bg-image {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   z-index: -1000;
 }
 .bg-image__main {
@@ -116,4 +118,37 @@ main {
 }
 .small-card a:visited {
   color: #e76841;
+}
+
+.mission-statement-overview {
+  position: relative;
+  height: 20em;
+  background: linear-gradient(90deg, #6b249a, #971fb5); 
+  z-index: -1000;
+}
+.mission-statement-overview:before {
+  z-index: -1000;
+  content: '';
+  background: inherit; 
+  display: block;
+  height: 50%;
+  top: -2em;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(3.0deg);
+  transform-origin: 100% 0;
+  -webkit-backface-visibility: hidden; /* for Chrome Windows */
+}
+.mission-statement-overview__collage {
+  position: absolute;
+  top: -7em;
+  left: 10em;
+}
+.mission-statement-overview__text {
+  position: absolute;
+  right: 15%;
+  width: 33%;
+  color: #f5e2fb;
+  float: right;
 }
