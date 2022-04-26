@@ -91,13 +91,16 @@ main {
   left: 77%;
 }
 
+.cddrc-overview-card {
+  top: 25%;
+  left: 10%;
+}
+
 .overview-card {
   position: absolute;
   width: 33%;
   background-color: #fff;
   opacity: .9;
-  top: 25%;
-  left: 10%;
   padding: 1.5em;
 }
 .overview-card h1 {
@@ -151,4 +154,32 @@ main {
   width: 33%;
   color: #f5e2fb;
   float: right;
+}
+
+.utah-overview {
+  position: relative;
+}
+.utah-overview__collage {
+  position: absolute;
+  float: right;
+  right: 10em;
+  top: 4em;
+}
+.utah-overview__text {
+  top: 4em;
+  left: 10%;
+}
+
+.more-link {
+  text-decoration: none;
+  color: #52c3e7;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px #ccc;
+  position: absolute;
+  right: 6em;
+}
+.more-link:visited {
+  color: #52c3e7;
 }
