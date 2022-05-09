@@ -6,6 +6,7 @@ html {
 }
 
 :root {
+  --header-height: 10em;
   --main-text-color: #c60000;
   --underline-color: #55c3e6;
 }
@@ -206,4 +207,17 @@ main {
 .footer__contact_info {
 }
 .footer__copyright {
+}
+
+.utilizing-cddrc-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 600px;
+  margin-top: var(--header-height);
+  margin-bottom: 4em;
+}
+.utilizing-cddrc-content__mosaic-logo {
+  width: 20em;
 }
