@@ -158,7 +158,7 @@ main {
 
 .utah-overview {
   position: relative;
-  min-height: 35em;
+  min-height: 30em;
 }
 .utah-overview__collage {
   position: absolute;
@@ -187,5 +187,23 @@ main {
 
 .card-section {
   background: var(--main-text-color);
-  min-height: 30em;
+  /*min-height: 30em;*/
+  min-height: 5em;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 4em;
+}
+.footer__collaborator_links {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+.footer__contact_info {
+}
+.footer__copyright {
 }
