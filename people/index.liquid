@@ -14,6 +14,25 @@
           <div class='person-card__title'>
             {{person.title}}
           </div>
+          <div class='icon-link-row investigator-icon-link-row'>
+            {% if person.twitter %}
+            <a href='{{ person.twitter }}'>
+              <img class='icon-link-row__icon' src='/assets/twitter-icon.png'/>
+            </a>
+            {% endif %}
+
+            {% if person.linkedin %}
+            <a href='{{ person.linkedin }}'>
+              <img class='icon-link-row__icon' src='/assets/linkedin-icon.png'/>
+            </a>
+            {% endif %}
+
+            {% if person.website %}
+            <a href='{{ person.website }}'>
+              <img class='icon-link-row__icon' src='/assets/website-link-icon.png'/>
+            </a>
+            {% endif %}
+          </div>
         </div>
       </div>
       {% endfor %}

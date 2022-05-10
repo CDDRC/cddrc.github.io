@@ -4,17 +4,23 @@
     {
       "name": "Gabor Marth",
       "title": "Co-director",
-      "portrait": "gabor_marth.jpg"
+      "portrait": "gabor_marth.jpg",
+      "website": "https://marthlab.org/",
+      "twitter": "https://twitter.com/MarthGabor"
     },
     {
       "name": "H. Joseph Yost",
       "title": "Co-director",
-      "portrait": "gabor_marth.jpg"
+      "portrait": "joseph_yost.jpg",
+      "website": "http://yostlab.genetics.utah.edu/",
+      "twitter": "https://twitter.com/hjosephyost",
+      "linkedin": "https://www.linkedin.com/in/hjosephyost/"
     },
     {
       "name": "Martin Tristani",
       "title": "Co-director",
-      "portrait": "gabor_marth.jpg"
+      "portrait": "martin_tristani.jpg",
+      "website": "https://cvrti.utah.edu/tristani-firouzi/index.html"
     }
   ]
 }

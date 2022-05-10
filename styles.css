@@ -260,6 +260,7 @@ main {
 }
 .person-card__name {
   position: absolute;
+  font-size: .8em;
   font-weight: bold;
   bottom: 5px;
   left: 10px;
@@ -274,6 +275,20 @@ main {
   color: #fff;
   font-size: 0.7em;
   font-weight: bold;
+}
+
+.investigator-icon-link-row {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.icon-link-row {
+  display: flex;
+  gap: 5px;
+}
+.icon-link-row__icon {
+  width: 20px;
 }
 
 .investigators-section {
