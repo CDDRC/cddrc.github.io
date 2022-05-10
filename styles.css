@@ -204,6 +204,10 @@ main {
   align-items: center;
   gap: 2em;
 }
+.footer__image {
+  width: 20vw;
+  max-width: 240px;
+}
 .footer__contact_info {
 }
 .footer__copyright {
