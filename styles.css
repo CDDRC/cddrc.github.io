@@ -281,6 +281,10 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 50px;
 }
-.investigators-row__header {
+.investigators-row {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
 }

@@ -1,0 +1,19 @@
+{
+  "people": [
+    {
+      "name": "Gabor Marth",
+      "title": "Co-director",
+      "portrait": "gabor_marth.jpg"
+    },
+    {
+      "name": "H. Joseph Yost",
+      "title": "Co-director",
+      "portrait": "gabor_marth.jpg"
+    },
+    {
+      "name": "Martin Tristani",
+      "title": "Co-director",
+      "portrait": "gabor_marth.jpg"
+    }
+  ]
+}

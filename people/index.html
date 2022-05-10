@@ -42,20 +42,22 @@
       <div class='people-page'>
         <div class='investigators-section'>
           <h1>Investigators</h1>
-          <div>
+          <div class='investigators-row'>
+            {% for person in people %}
             <div class='person-card'>
               <div class='person-card__top'>
-                <img class='person-card__portrait' src='/assets/portraits/gabor_marth.jpg'/>
+                <img class='person-card__portrait' src='/assets/portraits/{{person.portrait}}'/>
                 <div class='person-card__name'>
-                  Gabor Marth
+                  {{person.name}}
                 </div>
               </div>
               <div class='person-card__bottom'>
                 <div class='person-card__title'>
-                  Co-director
+                  {{person.title}}
                 </div>
               </div>
             </div>
+            {% endfor %}
           </div>
         </div>
       </div>
