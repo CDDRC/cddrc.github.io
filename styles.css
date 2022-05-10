@@ -145,16 +145,17 @@ main {
   -webkit-backface-visibility: hidden; /* for Chrome Windows */
 }
 .mission-statement-overview__collage {
-  position: absolute;
-  top: -7em;
-  left: 10em;
+  position: relative;
+  bottom: 30%;
+  width: 40%;
+  left: 8%;
+  object-fit: contain;
 }
 .mission-statement-overview__text {
-  position: absolute;
-  right: 15%;
-  width: 33%;
-  color: #f5e2fb;
   float: right;
+  width: 30%;
+  color: #f5e2fb;
+  margin-right: 15%;
 }
 
 .utah-overview {
