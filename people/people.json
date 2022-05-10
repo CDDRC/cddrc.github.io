@@ -1,4 +1,5 @@
 {
+  "layout": "main.liquid",
   "people": [
     {
       "name": "Gabor Marth",
