@@ -165,8 +165,9 @@ main {
 .utah-overview__collage {
   position: absolute;
   float: right;
-  right: 10em;
+  right: 10%;
   top: 4em;
+  width: 40%;
 }
 .utah-overview__text {
   top: 4em;
