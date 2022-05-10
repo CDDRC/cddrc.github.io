@@ -227,3 +227,60 @@ main {
 .utilizing-cddrc-content__mosaic-logo {
   width: 20em;
 }
+
+.people-page {
+  margin-top: var(--header-height);
+}
+
+.person-card {
+  --width: 200px;
+  --border-radius: 10px;
+  position: relative;
+  border-radius: var(--border-radius);
+  height: 250px;
+  width: var(--width);
+  box-shadow: 0px 5px 10px #ccc;
+  padding: 2px;
+}
+.person-card__top {
+  position: relative;
+  height: 50%;
+}
+.person-card__portrait {
+  --portrait-width: 100px;
+  position: absolute;
+  top: -25px;
+  left: calc((var(--width) / 2) - (var(--portrait-width) / 2));
+  width: var(--portrait-width);
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 5px 10px #ccc;
+}
+.person-card__name {
+  position: absolute;
+  font-weight: bold;
+  bottom: 5px;
+  left: 10px;
+}
+.person-card__bottom {
+  height: 50%;
+  background: var(--main-text-color);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+.person-card__title {
+  padding: 5px;
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.investigators-section {
+  color: var(--main-text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.investigators-row__header {
+}
