@@ -232,54 +232,93 @@ main {
   margin-top: var(--header-height);
 }
 
+.person-row {
+  display: flex;
+}
+
 .person-card {
-  --width: 200px;
+  --person-card-width: 200px;
+  --top-height: 50%;
+  --bottom-height: 50%;
+  --bottom-display: block;
   --border-radius: 10px;
+  --bottom-color: var(--main-text-color);
+  --bottom-padding-top: 0px;
+  --portrait-width: 120px;
+  --name-bottom: 5px;
+  --name-position: absolute;
   position: relative;
   border-radius: var(--border-radius);
   height: 250px;
-  width: var(--width);
+  width: var(--person-card-width);
   box-shadow: 0px 5px 10px #ccc;
   padding: 2px;
 }
 .person-card__top {
   position: relative;
-  height: 50%;
+  height: var(--top-height);
 }
 .person-card__portrait {
-  --portrait-width: 100px;
   position: absolute;
   top: -25px;
-  left: calc((var(--width) / 2) - (var(--portrait-width) / 2));
+  left: calc((var(--person-card-width) / 2) - (var(--portrait-width) / 2));
   width: var(--portrait-width);
   border-radius: 50%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 0px 5px 10px #ccc;
+  box-shadow: 0px 5px 10px #555;
+  z-index: 1000;
 }
 .person-card__name {
-  position: absolute;
+  position: var(--name-position);
   font-size: .8em;
   font-weight: bold;
-  bottom: 5px;
+  top: var(--name-top);
+  bottom: var(--name-bottom);
   left: 10px;
 }
 .person-card__bottom {
-  height: 50%;
-  background: var(--main-text-color);
+  position: relative;
+  background: var(--bottom-color);
   border-radius: 0 0 var(--border-radius) var(--border-radius);
+  height: var(--bottom-height);
+  display: var(--bottom-display);
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: var(--bottom-padding-top);
 }
 .person-card__title {
   padding: 5px;
   color: #fff;
   font-size: 0.7em;
-  font-weight: bold;
+  padding: 10px;
+}
+
+.small-person-card {
+  --person-card-width: 150px;
+  --bottom-color: #5f4ba0;
+  --top-height: 20%;
+  --bottom-height: 80%;
+  --bottom-display: flex;
+  --bottom-padding-top: 40px;
+  --portrait-width: 100px;
+  --name-top: 0px;
+  --name-bottom: unset;
+  --name-position: unset;
+  color: #fff;
+}
+
+.frameshift-person-card {
 }
 
 .investigator-icon-link-row {
   position: absolute;
   right: 10px;
+  bottom: 10px;
+}
+
+.utah-team-icon-link-row {
+  position: absolute;
   bottom: 10px;
 }
 
@@ -299,7 +338,49 @@ main {
   gap: 50px;
 }
 .investigators-row {
+  gap: 50px;
+}
+
+.utah-team-section {
+  color: #5f4ba0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.utah-team-row {
+  display: flex;
+  gap: 25px;
+}
+
+.frameshift-team-section {
+  color: #5f4ba0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.frameshift-team-row {
+  display: flex;
+  gap: 25px;
+}
+
+.internal-advisory-board-section {
+  color: #5f4ba0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.internal-advisory-board-row {
+  display: flex;
+  gap: 25px;
+}
+
+.external-advisory-board-section {
+  color: #5f4ba0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   gap: 50px;
 }

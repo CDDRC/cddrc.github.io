@@ -1,26 +1,86 @@
 {
   "layout": "main.liquid",
-  "people": [
-    {
-      "name": "Gabor Marth",
-      "title": "Co-director",
-      "portrait": "gabor_marth.jpg",
-      "website": "https://marthlab.org/",
-      "twitter": "https://twitter.com/MarthGabor"
-    },
+  "investigators": [
     {
       "name": "H. Joseph Yost",
-      "title": "Co-director",
+      "title": "Vice Chairman for Basic Science Research, Department of Pediatrics, Professor of Neurobiology & Anatomy",
       "portrait": "joseph_yost.jpg",
       "website": "http://yostlab.genetics.utah.edu/",
       "twitter": "https://twitter.com/hjosephyost",
       "linkedin": "https://www.linkedin.com/in/hjosephyost/"
     },
     {
+      "name": "Gabor Marth",
+      "title": "Professor of Human Genetics, University of Utah",
+      "portrait": "gabor_marth.jpg",
+      "website": "https://marthlab.org/",
+      "twitter": "https://twitter.com/MarthGabor"
+    },
+    {
       "name": "Martin Tristani",
-      "title": "Co-director",
+      "title": "Professor of Pediatrics, University of Utah School of Medicine",
       "portrait": "martin_tristani.jpg",
       "website": "https://cvrti.utah.edu/tristani-firouzi/index.html"
+    }
+  ],
+  "utah_team": [
+    {
+      "name": "Bradley Demarest",
+      "title": "Biostatistician",
+      "portrait": "bradley_demarest.jpg"
+    },
+    {
+      "name": "Stephanie Georges",
+      "title": "Web Developer, Marth Laboratory",
+      "portrait": "stephanie_georges.jpg",
+      "#linkedin": "https://www.linkedin.com/in/stephanie-georges-19388784/"
+    },
+    {
+      "name": "Carson Holt",
+      "title": "Director, UCGD Core",
+      "portrait": "carson_holt.jpg"
+    },
+    {
+      "name": "Barry Moore",
+      "title": "Director of Research and Science, Yandell laboratory",
+      "portrait": "barry_moore.jpg"
+    },
+    {
+      "name": "Shawn Rynearson",
+      "title": "Senior Software Developer, Yandell Laboratory",
+      "portrait": "shawn_rynearson.jpg"
+    },
+    {
+      "name": "Anders Pitman",
+      "title": "Software Architect, Marth Laboratory",
+      "portrait": "anders_pitman.jpg",
+      "#website": "https://apitman.com",
+      "#twitter": "https://twitter.com/anderspitman",
+      "#linkedin": "https://www.linkedin.com/in/anderspitman"
+    }
+  ],
+  "frameshift_team": [
+    {
+      "name": "Alistair Ward",
+      "title": "CEO, Cofounder, Frameshift Genomics",
+      "portrait": "alistair_ward.jpg"
+    },
+    {
+      "name": "Chase Miller",
+      "title": "CTO, Cofounder, Frameshift Genomics",
+      "portrait": "chase_miller.jpg"
+    }
+  ],
+  "internal_advisory_board": [
+    {
+      "name": "Mark Yandell",
+      "title": "Professor of Human Genetics, University of Utah",
+      "portrait": "mark_yandell.jpg"
+    },
+    {
+      "name": "Aaron Quinlan",
+      "title": "Associate Professor of Human Genetics, University of Utah",
+      "portrait": "aaron_quinlan.jpg"
     }
   ]
 }
