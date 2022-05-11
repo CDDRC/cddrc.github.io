@@ -1,0 +1,23 @@
+{
+  "name": "cddrc_website",
+  "version": "0.1.0",
+  "description": "This website is built using [Eleventy](https://www.11ty.dev/).",
+  "main": ".eleventy.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cddrc/cddrc.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cddrc/cddrc.github.io/issues"
+  },
+  "homepage": "https://github.com/cddrc/cddrc.github.io#readme"
+}

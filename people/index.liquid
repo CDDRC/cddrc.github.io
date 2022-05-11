@@ -1,0 +1,171 @@
+<div class='bg-image'>
+  <img class='bg-image__main' src='/assets/data-stream-background.jpg' />
+</div>
+
+<div class='people-page'>
+  <div class='investigators-section'>
+    <h1 class='people-section-header'>Investigators</h1>
+    <div class='person-row investigators-row'>
+      {% for person in investigators %}
+      <div class='person-card'>
+        <div class='person-card__top large-person-card__top'>
+          <img class='person-card__portrait' src='/assets/portraits/{{person.portrait}}'/>
+          <div class='person-card__name'>
+            {{person.name}}
+          </div>
+        </div>
+        <div class='person-card__bottom large-person-card__bottom'>
+          <div class='person-card__title'>
+            {{person.title}}
+          </div>
+          <div class='icon-link-row investigator-icon-link-row'>
+            {% if person.twitter %}
+            <a href='{{ person.twitter }}'>
+              <img class='icon-link-row__icon' src='/assets/twitter-icon.png'/>
+            </a>
+            {% endif %}
+
+            {% if person.linkedin %}
+            <a href='{{ person.linkedin }}'>
+              <img class='icon-link-row__icon' src='/assets/linkedin-icon.png'/>
+            </a>
+            {% endif %}
+
+            {% if person.website %}
+            <a href='{{ person.website }}'>
+              <img class='icon-link-row__icon' src='/assets/website-link-icon.png'/>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class='utah-team-section'>
+    <h1 class='people-section-header'>Utah Team</h1>
+    <div class='person-row utah-team-row'>
+      {% for person in utah_team %}
+      <div class='person-card small-person-card'>
+        <div class='person-card__top'>
+          <img class='person-card__portrait' src='/assets/portraits/{{person.portrait}}'/>
+        </div>
+        <div class='person-card__bottom'>
+          <div class='person-card__name'>
+            {{person.name}}
+          </div>
+          <div class='person-card__title'>
+            {{person.title}}
+          </div>
+          <div class='icon-link-row utah-team-icon-link-row'>
+            {% if person.twitter %}
+            <a href='{{ person.twitter }}'>
+              <img class='icon-link-row__icon' src='/assets/twitter-icon.png'/>
+            </a>
+            {% endif %}
+
+            {% if person.linkedin %}
+            <a href='{{ person.linkedin }}'>
+              <img class='icon-link-row__icon' src='/assets/linkedin-icon.png'/>
+            </a>
+            {% endif %}
+
+            {% if person.website %}
+            <a href='{{ person.website }}'>
+              <img class='icon-link-row__icon' src='/assets/website-link-icon.png'/>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+  <div class='frameshift-team-section'>
+    <h1 class='people-section-header'>Frameshift Genomics Team</h1>
+    <div class='person-row frameshift-team-row'>
+      {% for person in frameshift_team %}
+      <div class='person-card small-person-card'>
+        <div class='person-card__top'>
+          <img class='person-card__portrait' src='/assets/portraits/{{person.portrait}}'/>
+        </div>
+        <div class='person-card__bottom'>
+          <div class='person-card__name'>
+            {{person.name}}
+          </div>
+          <div class='person-card__title'>
+            {{person.title}}
+          </div>
+          <div class='icon-link-row utah-team-icon-link-row'>
+            {% if person.twitter %}
+            <a href='{{ person.twitter }}'>
+              <img class='icon-link-row__icon' src='/assets/twitter-icon.png'/>
+            </a>
+            {% endif %}
+
+            {% if person.linkedin %}
+            <a href='{{ person.linkedin }}'>
+              <img class='icon-link-row__icon' src='/assets/linkedin-icon.png'/>
+            </a>
+            {% endif %}
+
+            {% if person.website %}
+            <a href='{{ person.website }}'>
+              <img class='icon-link-row__icon' src='/assets/website-link-icon.png'/>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class='internal-advisory-board-section'>
+    <h1 class='people-section-header'>Internal Advisory Board</h1>
+    <div class='person-row internal-advisory-board-row'>
+      {% for person in internal_advisory_board %}
+      <div class='person-card small-person-card'>
+        <div class='person-card__top'>
+          <img class='person-card__portrait' src='/assets/portraits/{{person.portrait}}'/>
+        </div>
+        <div class='person-card__bottom'>
+          <div class='person-card__name'>
+            {{person.name}}
+          </div>
+          <div class='person-card__title'>
+            {{person.title}}
+          </div>
+          <div class='icon-link-row utah-team-icon-link-row'>
+            {% if person.twitter %}
+            <a href='{{ person.twitter }}'>
+              <img class='icon-link-row__icon' src='/assets/twitter-icon.png'/>
+            </a>
+            {% endif %}
+
+            {% if person.linkedin %}
+            <a href='{{ person.linkedin }}'>
+              <img class='icon-link-row__icon' src='/assets/linkedin-icon.png'/>
+            </a>
+            {% endif %}
+
+            {% if person.website %}
+            <a href='{{ person.website }}'>
+              <img class='icon-link-row__icon' src='/assets/website-link-icon.png'/>
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class='external-advisory-board-section'>
+    <h1 class='people-section-header'>External Advisory Board</h1>
+    <p>
+      To be announced
+    </p>
+  </div>
+</div>
