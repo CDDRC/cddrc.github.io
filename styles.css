@@ -261,12 +261,13 @@ main {
   --portrait-width: 120px;
   --name-bottom: 5px;
   --name-position: absolute;
+  --person-padding: 2px;
   position: relative;
   border-radius: var(--border-radius);
   height: 250px;
   width: var(--person-card-width);
   box-shadow: 0px 5px 10px #ccc;
-  padding: 2px;
+  padding: var(--person-padding);
   background: #fff;
 }
 .person-card__top {
@@ -276,7 +277,7 @@ main {
 .person-card__portrait {
   position: absolute;
   top: -25px;
-  left: calc((var(--person-card-width) / 2) - (var(--portrait-width) / 2));
+  left: calc((var(--person-card-width) / 2) - (var(--portrait-width) / 2) - var(--person-padding));
   width: var(--portrait-width);
   border-radius: 50%;
   display: block;
