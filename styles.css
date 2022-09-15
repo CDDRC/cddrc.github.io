@@ -234,7 +234,7 @@ main {
   width: 20em;
 }
 
-.cddrc-blog {
+.cddrc-blog-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -244,7 +244,21 @@ main {
   margin-bottom: 4em;
 }
 
-.ucddrc-blog__mosaic-logo {
+.ucddrc-blog-content__mosaic-logo {
+  width: 20em;
+}
+
+.cddrc-help-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 600px;
+  margin-top: var(--header-height);
+  margin-bottom: 4em;
+}
+
+.cddrc-help-content__mosaic-logo {
   width: 20em;
 }
 
