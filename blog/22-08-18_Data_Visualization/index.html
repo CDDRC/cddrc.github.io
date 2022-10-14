@@ -1,0 +1,109 @@
+<!doctype>
+<html>
+  <head>
+    <title>CDDRC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png"/>
+  </head>
+
+  <body>
+    <main>
+      <div class='header'>
+        <a href='/'>
+          <img class='logo' src='/assets/cddrc-logo.jpg' width=300 />
+        </a>
+        <nav class='navbar'>
+          <a href="/">Home</a>
+          <a href="/people/">People</a>
+          <a href="/utilizing-cddrc/">Utilizing CDDRC</a>
+          <a href="/demo-project/">Demo Project</a>
+          <a href="https://cddrc.utah.edu/" target="_blank">Mosaic Portal</a>
+          <!--
+          <a href="/contributing-to-cddrc/">Contributing to CDDRC</a>
+          <a href="/challenge-prizes/">Challenge Prizes</a>
+          -->
+          <a href="https://benchtobassinet.com/?page_id=2526" target="_blank">Challenge Prizes</a>
+          <a href="https://biodatacatalyst.nhlbi.nih.gov/fellows/program/" target="_blank">Fellowships</a>
+          <a href="/blog/">Blog</a>
+          <a href="/help/">Help</a>
+          <!--
+          <a href="/publications/">Publications</a>
+          <a href="/links-and-resources/">Links and Resources</a>
+          <a href="/join-us/">Join Us</a>
+          -->
+        </nav>
+      </div>
+
+      
+<div class='cddrc-blog-content'>
+  <p class='cddrc-blog-content__text'>
+    The power of data visualization
+    A picture can speak a thousand words, but which picture we use can have a major impact on the conclusions that we draw. In preparing a recent publication for a study investigating post-transcriptional gene regulation during heart development, the authors included the following figure (Figure 1) comparing gene expression for multiple genes, across a series of time points in zebrafish models. In preparing these gene expression charts, the y-scale for each gene is set to the range of values for that gene. This has the advantage that each chart gives a clear view of how expression evolves over the given time series for each gene. A disadvantage is that each gene is plotted using a different scale and comparing data across genes can be tricky. In this case, expression of nkx2.5 appears to decline precipitously after the first time point and then remain stable.
+  </p>
+
+  <p class='cddrc-blog-content__text'>
+    Figure 1. One panel per gene. Y-scale expands to the range of data showing gene expression relative to time points of a single gene.
+  </p>
+
+  <p class='cddrc-blog-content__text'>
+    This data set is hosted at  the NHLBI’s Cardiovascular Development Data Resource Center (CDDRC). The University of Utah and Frameshift Labs are collaborating to make this data available to the wider research community using the Mosaic platform. This collaboration is developing visualisation solutions for RNA-Seq data, and when applied to the same time series data, all six genes above are plotted in a single chart as shown in Figure 2.
+  </p>
+
+  <p class='cddrc-blog-content__text'>
+    Figure 2. All genes in the same panel, symlog scale shows gene expression trends relative to multiple genes.
+  </p>
+
+  <p class='cddrc-blog-content__text'>
+    In Figure 2, the y-axis is plotted on a symlog scale so all genes are on the same scale. This plot shows all data points (circles) for all genes, along with the median value for each gene and time point (horizontal lines). In this figure, the postna gene is highlighted to make its data points easier to see (by hovering over the gene in the legend at the top of the chart). When observing this time series data in this form, the publication authors realised that the nkx2.5 expression was quite stable relative to other much more dynamic genes, such as postna.
+  </p>
+
+  <p class='cddrc-blog-content__text'>
+    Figure 3. Easily deselect genes that are not of current interest to show just nkx2.5 and postna.
+  </p>
+
+  <p class='cddrc-blog-content__text'>
+    Going one step further, using the interactivity of the charts, the authors were able to remove all the other genes and highlight just nkx2.5 and postna, as shown in Figure 3. This now clearly shows that postna has a much higher relative change as compared with nkx2.5.
+  </p>
+
+  <p class='cddrc-blog-content__text'>
+    This is a good example of how access to easy-to-use visualisation software connected to complex data types allows users to quickly build and analyse charts for the same data in multiple different ways to better understand the trends and reach improved conclusions.
+  </p>
+
+</div>
+
+<div class='card-section'>
+</div>
+
+
+      <div class='footer'>
+        <a class='footer__logo' href='/'>
+          <img class='logo' src='/assets/cddrc-logo.jpg' width=300 />
+        </a>
+        <div class='footer__collaborator_links'>
+          <a href='https://www.nhlbi.nih.gov/'>
+            <img class='footer__image' src='/assets/nih-logo.png' />
+          </a>
+          <a href='https://frameshift.io/'>
+            <img class='footer__image' src='/assets/frameshift-logo.jpg' />
+          </a>
+          <a href='https://ucgd.genetics.utah.edu/'>
+            <img class='footer__image' src='/assets/ucgd-logo.jpg' />
+          </a>
+          <a href='https://cgm.massgeneral.org/'>
+            <img class='footer__image' src='/assets/cgm-logo.jpg' />
+          </a>
+        </div>
+        <div class='footer__contact_info'>
+          <a href='mailto:cddrc@lists.utah.edu'>Community Mailing List<a>
+        </div>
+        <div class='footer__copyright'>
+          © 2022 Cardiovascular Development Data Resource Center
+        </div>
+      </div>
+
+    </main>
+  </body>
+      
+</html>
