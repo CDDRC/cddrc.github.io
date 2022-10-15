@@ -25,62 +25,75 @@
   ],
   "utah_team": [
     {
-      "name": "Bradley Demarest",
-      "title": "Biostatistician",
-      "portrait": "bradley_demarest.jpg"
+	"name": "Bradley Demarest",
+	"title": "Biostatistician",
+	"portrait": "bradley_demarest.jpg",
+	"twitter": "https://twitter.com/bradleydemarest"
     },
     {
       "name": "Stephanie Georges",
       "title": "Web Developer, Marth Laboratory",
       "portrait": "stephanie_georges.jpg",
-      "#linkedin": "https://www.linkedin.com/in/stephanie-georges-19388784/"
+      "linkedin": "https://www.linkedin.com/in/stephanie-georges-19388784/"
     },
     {
-      "name": "Carson Holt",
-      "title": "Director, UCGD Core",
-      "portrait": "carson_holt.jpg"
+	"name": "Carson Holt",
+	"title": "Director, UCGD Core",
+	"portrait": "carson_holt.jpg",
+	"linkedin": "https://www.linkedin.com/in/carson-holt-81593421"
     },
     {
-      "name": "Barry Moore",
-      "title": "Director of Research and Science, Yandell laboratory",
-      "portrait": "barry_moore.jpg"
+	"name": "Barry Moore",
+	"title": "Director of Research and Science, Yandell laboratory",
+	"portrait": "barry_moore.jpg",
+	"linkedin": "https://www.linkedin.com/in/barrymoore66/"
     },
     {
-      "name": "Shawn Rynearson",
-      "title": "Senior Software Developer, Yandell Laboratory",
-      "portrait": "shawn_rynearson.jpg"
+	"name": "Shawn Rynearson",
+	"title": "Senior Software Developer, Yandell Laboratory",
+	"portrait": "shawn_rynearson.jpg",
+	"linkedin": "https://www.linkedin.com/in/shawn-rynearson-50124b1b/"
     },
     {
-      "name": "Anders Pitman",
-      "title": "Software Architect, Marth Laboratory",
-      "portrait": "anders_pitman.jpg",
-      "#website": "https://apitman.com",
-      "#twitter": "https://twitter.com/anderspitman",
-      "#linkedin": "https://www.linkedin.com/in/anderspitman"
+	"name": "Anders Pitman",
+	"title": "Software Architect, Marth Laboratory",
+	"portrait": "anders_pitman.jpg",
+	"website": "https://apitman.com",
+	"twitter": "https://twitter.com/anderspitman",
+	"linkedin": "https://www.linkedin.com/in/anderspitman"
     }
   ],
   "frameshift_team": [
     {
-      "name": "Alistair Ward",
-      "title": "CEO, Cofounder, Frameshift Genomics",
-      "portrait": "alistair_ward.jpg"
+	"name": "Alistair Ward",
+	"title": "CEO, Cofounder, Frameshift Genomics",
+	"portrait": "alistair_ward.jpg",
+	"website": "https://frameshift.io/",
+	"twitter": "https://twitter.com/AlistairNWard",
+	"linkedin": "https://www.linkedin.com/in/alistair-ward-1856758/"
     },
     {
-      "name": "Chase Miller",
-      "title": "CTO, Cofounder, Frameshift Genomics",
-      "portrait": "chase_miller.jpg"
+	"name": "Chase Miller",
+	"title": "CTO, Cofounder, Frameshift Genomics",
+	"portrait": "chase_miller.jpg",
+	"website": "https://frameshift.io/",
+	"linkedin": "https://www.linkedin.com/in/chasemiller/"
     }
   ],
   "internal_advisory_board": [
     {
-      "name": "Mark Yandell",
-      "title": "Professor of Human Genetics, University of Utah",
-      "portrait": "mark_yandell.jpg"
+	"name": "Mark Yandell",
+	"title": "Professor of Human Genetics, University of Utah",
+	"portrait": "mark_yandell.jpg",
+	"website": "https://medicine.utah.edu/faculty/mddetail/u0514920"
     },
     {
-      "name": "Aaron Quinlan",
-      "title": "Associate Professor of Human Genetics, University of Utah",
-      "portrait": "aaron_quinlan.jpg"
+	"name": "Aaron Quinlan",
+	"title": "Associate Professor of Human Genetics, University of Utah",
+	"portrait": "aaron_quinlan.jpg",
+	"website": "http://quinlanlab.org/",
+	"twitter": "https://twitter.com/aaronquinlan/",
+	"linkedin": "https://www.linkedin.com/in/aaron-quinlan-05205989/"
     }
   ]
 }
